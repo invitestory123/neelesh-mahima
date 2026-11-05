@@ -124,8 +124,8 @@ function vd(){
     (0,H.jsx)("p",{className:"scratch-hint",children:"Run your finger across the gold to reveal it."}),
     (0,H.jsxs)("div",{className:`scratch-card ${r?"is-revealed":""}`,children:[
       (0,H.jsxs)("div",{className:"scratch-card__date",children:[
-        (0,H.jsx)("small",{children:__wd.scratchCard?.day??"Saturday"}),
-        (0,H.jsx)("strong",{children:__wd.scratchCard?.date??"12"}),
+        (0,H.jsx)("small",{children:__wd.scratchCard?.day??"Friday & Saturday"}),
+        (0,H.jsx)("strong",{children:__wd.scratchCard?.date??"11 & 12"}),
         (0,H.jsx)("span",{children:__wd.scratchCard?.monthYear??"December · 2026"}),
         (0,H.jsx)("i",{children:__wd.scratchCard?.city??"Jaipur"})
       ]}),
@@ -280,7 +280,7 @@ function xd(){
 
   let groom=__wd.couple?.groom??"Neelesh";
   let bride=__wd.couple?.bride??"Mahima";
-  let heroDate=__wd.couple?.heroDate??"11 · 12 · 2026";
+  let heroDate=__wd.couple?.heroDate??"11.12.2026 & 12.12.2026";
   let eventsList=__wd.events??[];
   let venue=__wd.venue??{};
   let story=__wd.story??{};

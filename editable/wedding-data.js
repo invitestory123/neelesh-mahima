@@ -25,8 +25,8 @@ window.WEDDING_DATA = {
   },
 
   scratchCard: {
-    day: "Saturday",
-    date: "12",
+    day: "Friday & Saturday",
+    date: "11 & 12",
     monthYear: "December · 2026",
     city: "Jaipur"
   },

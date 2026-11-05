@@ -325,3 +325,28 @@
   pointer-events: none;
   z-index: 1;
 }
+
+/* Date Rule and Scratch Card responsiveness */
+.date-rule {
+  letter-spacing: clamp(0.10em, 2vw, 0.20em) !important;
+  font-size: clamp(10px, 2.6vw, 11px) !important;
+  padding: 0 12px !important;
+  max-width: 95vw !important;
+  margin: 18px auto !important;
+  white-space: nowrap !important;
+}
+.date-rule b {
+  flex-shrink: 0 !important;
+  width: clamp(16px, 4vw, 30px) !important;
+}
+.scratch-card__date strong {
+  font-size: clamp(48px, 14vw, 70px) !important;
+  line-height: 1 !important;
+  margin: 4px 0 6px !important;
+  letter-spacing: 0.04em !important;
+  white-space: nowrap !important;
+}
+.scratch-card__date small {
+  letter-spacing: clamp(0.16em, 2.5vw, 0.26em) !important;
+  white-space: nowrap !important;
+}
