@@ -8,7 +8,7 @@ window.WEDDING_DATA = {
     groom: "Neelesh",
     bride: "Mahima",
     openingDate: "",
-    heroDate: "11 · 12 · 2026"
+    heroDate: "11.12.2026 & 12.12.2026"
   },
 
   invitation: {
@@ -33,7 +33,7 @@ window.WEDDING_DATA = {
 
   story: {
     portraitCaption: ["Together in love", "to forever"],
-    tagline: "Two paths, one beautiful promise",
+    tagline: "one beautiful promise",
     text: "With joyful hearts and the sacred blessings of our loving elders and families, we invite you to witness the beginning of our forever amidst the regal elegance of Diggi Palace in the pink city of Jaipur."
   },
 
