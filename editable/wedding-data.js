@@ -7,7 +7,7 @@ window.WEDDING_DATA = {
   couple: {
     groom: "Neelesh",
     bride: "Mahima",
-    openingDate: "11 & 12 · December · 2026",
+    openingDate: "",
     heroDate: "11 · 12 · 2026"
   },
 

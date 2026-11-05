@@ -46,7 +46,7 @@ function gd({onOpen:e}){
   let[t,n]=(0,y.useState)(!1),r=(0,y.useRef)(null);
   let groom=__wd.couple?.groom??"Neelesh";
   let bride=__wd.couple?.bride??"Mahima";
-  let openingDate=__wd.couple?.openingDate??"11 & 12 · December · 2026";
+  let openingDate=__wd.couple?.openingDate??"";
   return (0,H.jsxs)(dd.div,{
     className:`opening opening--cinematic ${t?"is-playing":""}`,
     exit:{opacity:0,scale:1.035,filter:"blur(8px)"},
@@ -73,7 +73,7 @@ function gd({onOpen:e}){
         (0,H.jsxs)("div",{className:"opening__copy",children:[
           (0,H.jsx)("p",{className:"opening__eyebrow",children:"The wedding celebration of"}),
           (0,H.jsxs)("h2",{children:[(0,H.jsx)("span",{children:groom}),(0,H.jsx)("i",{children:"&"}),(0,H.jsx)("span",{children:bride})]}),
-          (0,H.jsx)("p",{className:"opening__date",children:openingDate})
+          openingDate?(0,H.jsx)("p",{className:"opening__date",children:openingDate}):null
         ]}),
         (0,H.jsxs)("div",{className:"opening__center-action","aria-label":"Tap to open invitation",children:[
           (0,H.jsx)("div",{className:"opening__ring-pulse"}),
