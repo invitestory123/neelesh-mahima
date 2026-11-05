@@ -88,7 +88,7 @@ window.WEDDING_DATA = {
   },
 
   assets: {
-    video: "./editable/assets/neelesh-mahima-intro.mp4",
+    video: "./editable/assets/sm.mp4",
     flowFrame: "./editable/assets/flow-first-frame.webp",
     heroArt: "",
     storyPhoto: "./editable/assets/neelesh-mahima-story.webp",
